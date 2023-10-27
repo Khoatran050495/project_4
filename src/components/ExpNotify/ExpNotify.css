@@ -1,0 +1,68 @@
+.wrapper-exp {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: grid;
+  place-items: center;
+}
+
+.modal-exp {
+  background-color: #fff;
+  width: 390px;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
+}
+.expbtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-exp p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  font-family: "Rye";
+  color: #992c20;
+}
+
+.modal-exp a {
+  font-family: "Rye";
+  display: block;
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  border: 2px solid black;
+  width: 75px;
+  border-radius: 5px;
+}
+
+.modal-exp a:hover {
+  color: rgb(111, 163, 33);
+  border-color: rgb(111, 163, 33);
+}
+
+#btnexplogout {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: "Rye";
+  padding: 10px 0;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid black;
+  width: 75px;
+  border-radius: 5px;
+}
+
+#btnexplogout:hover {
+  color: #992c20;
+  border-color: #992c20;
+}

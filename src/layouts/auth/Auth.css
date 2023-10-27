@@ -1,0 +1,8 @@
+.registercomponent {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ebe8e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

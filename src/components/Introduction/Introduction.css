@@ -1,0 +1,26 @@
+.introduce {
+  padding: 10px 20px;
+}
+.imgintroduce1 {
+  display: flex;
+  justify-content: center;
+}
+.imgintroduce {
+  width: 800px;
+}
+.imgintroduce img {
+  width: 100%;
+  object-fit: fill;
+}
+.introduce h2 {
+  font-family: "Rye";
+  font-size: 30px;
+}
+.introduce p {
+  font-family: "Rye";
+  font-size: 20px;
+}
+.introduce h5 {
+  font-family: "Rye";
+  font-size: 20px;
+}

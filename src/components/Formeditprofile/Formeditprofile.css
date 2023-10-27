@@ -1,0 +1,147 @@
+.totalprofile1 p {
+  font-size: 20px;
+  color: #992c20;
+  font-family: "Rye";
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.totalprofile {
+  border: 2px solid #992c20;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.contentUsername {
+  text-align: center;
+}
+
+.avatarprofile {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatarprofile img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #992c20;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.formProfile {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+.formLabelInput {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 50%;
+  align-items: center;
+}
+
+.formLabelInput input {
+  margin: 20px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-family: "Rye";
+}
+
+.formLabelInput label {
+  margin: 20px 0;
+  font-family: "Rye";
+}
+
+/* css form password */
+.formLabelInput1 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 50%;
+  height: 250px;
+  align-items: center;
+}
+
+.formLabelInput1 input {
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-family: "Rye";
+}
+
+.formLabelInput1 label {
+  margin-top: 30px;
+  font-family: "Rye";
+}
+
+.btnSubmitFormProfile {
+  display: flex;
+  justify-content: center;
+}
+
+#btnSubmitFormProfile1 {
+  border: 1px solid green;
+  color: green;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgba(188, 143, 143, 0);
+  font-size: 20px;
+  font-family: "Rye";
+  text-align: center;
+}
+#btnSubmitFormProfile1:hover {
+  color: white;
+  background-color: green;
+}
+
+#avatar {
+  display: none;
+}
+
+.fa-camera {
+  font-size: 25px;
+}
+
+.inputformpassword {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.inputformpassword input {
+  font-size: 15px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.inputformpassword span {
+  font-size: 13px;
+  font-family: "Rye";
+  color: #992c20;
+}
+
+#btnshowhide {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 28px;
+  right: 0px;
+}
+
+#btnshowhide img {
+  width: 20px;
+  height: 20px;
+}
+
+.inpformpassword::placeholder {
+  font-size: 12px;
+}

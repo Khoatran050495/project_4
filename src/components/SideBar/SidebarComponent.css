@@ -1,0 +1,32 @@
+.sidebar1 {
+  width: 300px;
+  margin: 20px;
+  margin-left: 20px;
+}
+.sidebar1 > p {
+  font-size: 20px;
+  font-family: "Rye";
+  color: #992c20;
+  border-bottom: 1px solid black;
+}
+.sidebar2 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Rye";
+  gap: 10px;
+}
+.sidebar2 > p {
+  border-bottom: 1px solid black;
+}
+.sidebar2 button {
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 5px 0;
+  font-family: "Rye";
+  cursor: pointer;
+}
+.sidebar2 button:hover {
+  color: #992c20;
+}

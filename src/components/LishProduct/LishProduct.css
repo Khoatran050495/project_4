@@ -1,0 +1,40 @@
+.lishproduct1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.lishproduct p {
+  font-size: 20px;
+  color: #992c20;
+  font-family: "Rye";
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.pagination li {
+  margin: 0 10px;
+}
+
+.pagination__link {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pagination__link--active {
+  border: 1px solid #992c20;
+  border-radius: 5px;
+  color: white;
+  padding: 0 5px;
+}
+
+.pagination__link--disabled {
+  cursor: not-allowed;
+}

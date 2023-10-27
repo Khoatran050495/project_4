@@ -1,0 +1,5 @@
+.wrapper-default {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-bottom: 30px;
+}

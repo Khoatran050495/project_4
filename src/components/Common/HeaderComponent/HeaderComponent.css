@@ -1,0 +1,175 @@
+.navcomponent {
+  display: flex;
+  padding: 15px 40px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.navcomponent img {
+  width: 170px;
+  height: 150px;
+}
+
+.navchoose ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.navchoose ul li {
+  font-family: "Rye";
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: #977d67;
+  font-family: "Rye";
+}
+a:hover {
+  color: #992c20;
+}
+.linecolor {
+  height: 3px;
+  background-color: #977d67;
+}
+#logoutimg {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #977d67;
+  border-radius: 100%;
+}
+
+/* button */
+.choosecar {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+#btnchoosecar {
+  background-color: white;
+  width: 240px;
+  height: 50px;
+  border: none;
+  color: #977d67;
+  font-family: "Rye";
+  display: flex;
+  font-size: 15px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#img {
+  width: 80px;
+  height: 40px;
+}
+#img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+#img2 {
+  width: 60px;
+  height: 40px;
+}
+#img2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+#img3 {
+  width: 50px;
+  height: 40px;
+}
+#img3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+#btnchoosecar:hover {
+  cursor: pointer;
+  border: 2px solid #992c20;
+  border-radius: 5px;
+}
+#logout {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  color: #977d67;
+  font-family: "Rye";
+  font-size: 25px;
+}
+#logout:hover {
+  color: #992c20;
+}
+.shoppingcart {
+  margin-top: 5px;
+}
+#shoppingcart {
+  background-color: #231f2000;
+  border: none;
+  position: relative;
+  width: 70px;
+  height: 50px;
+}
+#shoppingcart span {
+  position: absolute;
+  top: -10px;
+  right: -18px;
+  font-size: 20px;
+  color: #992c20;
+}
+
+#shoppingcart img {
+  width: 38px;
+  height: 38px;
+}
+#carforsale {
+  border: none;
+  background-color: #231f20;
+  font-family: "Rye";
+  color: white;
+  font-size: 20px;
+}
+#carforsale:hover {
+  color: #ef4136;
+}
+#consicar:hover {
+  color: #ef4136;
+}
+#consicar {
+  border: none;
+  background-color: #231f20;
+  font-family: "Rye";
+  color: white;
+  font-size: 20px;
+}
+.avatarcontainer1 {
+  position: relative;
+}
+
+.toolcontainer1 {
+  display: none;
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  left: -120%;
+  background-color: #ebe8e2;
+  border: 2px solid #977d67;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.avatarcontainer1:hover .toolcontainer1 {
+  display: block;
+}
+
+#editInformation {
+  border: none;
+  color: #977d67;
+  background-color: rgba(255, 0, 0, 0);
+  font-family: "Rye";
+}
+#editInformation:hover {
+  color: #992c20;
+}

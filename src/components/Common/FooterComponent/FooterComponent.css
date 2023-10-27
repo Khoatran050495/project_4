@@ -1,0 +1,33 @@
+.footercomponent {
+  background-color: #ebe8e2;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px 20px;
+}
+.footercomponent1 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footercomponent2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+.footercomponent3 {
+  font-family: "Rye";
+}
+.footercomponent3 p:nth-child(3) {
+  color: #977d67;
+  font-size: 20px;
+}
+.footercomponent4 {
+  font-family: "Rye";
+  width: 200px;
+}
+.footercomponent4 ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

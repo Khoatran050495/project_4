@@ -1,0 +1,93 @@
+.cart-page {
+  padding: 20px;
+  margin-top: 5px;
+}
+.table-cart {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: fixed;
+}
+.table-cart th {
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+  color: #992c20;
+  text-align: center;
+  font-family: "Rye";
+}
+.table-cart td {
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-family: "Rye";
+}
+.table-cart img {
+  width: 90px;
+  height: 60px;
+}
+
+.btn-minus-shoppingcart {
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+  font-size: 25px;
+  padding-left: 10px;
+}
+.btn-plus-shoppingcart {
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+  font-size: 25px;
+}
+
+.quantityshoppingcart button {
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+  margin: 0 15px;
+  padding: 0;
+  font-size: 20px;
+}
+.quantityshoppingcart button:hover {
+  color: #ef4136;
+}
+.btnoutlinedanger {
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0);
+  font-size: 15px;
+  font-family: "Rye";
+  cursor: pointer;
+}
+.btnoutlinedanger:hover {
+  background-color: #ef4136;
+  border: 1px solid white;
+  color: white;
+}
+.total-money b {
+  font-family: "Rye";
+}
+.spantotalpayment {
+  font-family: "Rye";
+}
+.totalpayment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btntoltalpayment {
+  border: 1px solid green;
+  color: green;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgba(188, 143, 143, 0);
+  font-size: 20px;
+  font-family: "Rye";
+  text-align: center;
+}
+.btntoltalpayment:hover {
+  color: white;
+  background-color: green;
+}
+#noteorder {
+  text-align: center;
+  font-family: "Rye";
+  font-size: 20px;
+  padding: 20px 0;
+}

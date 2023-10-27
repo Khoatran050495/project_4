@@ -1,0 +1,249 @@
+.detailstotal {
+  padding: 0 20px;
+}
+.detailstotal p {
+  font-size: 20px;
+  color: #992c20;
+  font-family: "Rye";
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.detailimg {
+  width: 500px;
+  height: 350px;
+}
+.detailimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.votestartdetails {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+.votestartdetails2 p {
+  margin: 0;
+}
+.detailspay {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.detailspay1 p {
+  margin: 0;
+}
+.btnmaddtocart {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.btnmaddtocart button {
+  width: 150px;
+  padding: 10px 0;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: rgba(0, 128, 0, 0.244);
+  color: green;
+  cursor: pointer;
+  font-family: "Rye";
+}
+.btnmaddtocart button:hover {
+  background-color: green;
+  color: white;
+}
+.detailstable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Rye";
+}
+.detailstable tr th {
+  border-bottom: 2px solid black;
+}
+.detailstable tr td {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+.escriptiondetails p:nth-child(2) {
+  font-size: 15px;
+  color: black;
+}
+.escriptiondetails p:nth-child(1) {
+  margin-top: 35px;
+}
+.reviewsstart {
+  margin-top: 10px;
+}
+
+.reviewsstart > p {
+  margin-bottom: 10px;
+}
+
+.reviewsstart1 {
+  display: flex;
+  justify-content: center;
+}
+.reviewsstart2 {
+  text-align: center;
+}
+
+.reviewsstart2 p {
+  margin: 10px 0;
+}
+.votestart {
+  display: flex;
+  justify-content: center;
+}
+.votestart button {
+  width: 150px;
+  padding: 10px 0;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: rgba(0, 128, 0, 0.244);
+  color: green;
+  cursor: pointer;
+  font-family: "Rye";
+}
+.votestart button:hover {
+  background-color: green;
+  color: white;
+}
+.hightlow p {
+  font-size: 16px;
+  color: black;
+  font-family: "Rye";
+  margin: 0;
+}
+
+/* form comment */
+.totalComment2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.totalComment1 {
+  border: 2px solid black;
+  width: 70%;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.totalComment {
+  border: 1px solid black;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  padding: 10px 20px;
+  height: 250px;
+  overflow: auto;
+}
+
+.totalComment > p {
+  text-align: center;
+}
+
+.totalComment::-webkit-scrollbar {
+  display: none;
+}
+.commenttask {
+  margin: 15px 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 0 4px black;
+  border-radius: 15px;
+}
+
+.commenttask1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.commenttask1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.commenttask1 ul {
+  padding: 0;
+}
+
+.commenttask1 ul li {
+  list-style: none;
+  margin-bottom: 3px;
+  font-family: "Rye";
+  color: #2682b2;
+}
+
+.commenttask2 > p {
+  font-size: 15px;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.commenttask3 {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.commenttask4 > p {
+  margin-top: 17px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 13px;
+  color: #747571;
+}
+
+.commenttask4 p:nth-child(2) {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 13px;
+  color: black;
+}
+
+#formcontent1 {
+  position: relative;
+}
+
+#formcontent1 input {
+  width: 500px;
+  height: 30px;
+  border: 1px solid #a7cef4;
+  outline: none;
+  border-radius: 30px;
+  padding: 0 10px;
+}
+
+#btncomment {
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+  position: absolute;
+  font-size: 17px;
+  top: 6px;
+  right: 10px;
+}
+#comment1 {
+  color: black;
+  margin-left: 20px;
+}
+
+.empty-space {
+  height: 50px;
+}
+
+.commentTotal > p {
+  margin-bottom: 20px;
+}
