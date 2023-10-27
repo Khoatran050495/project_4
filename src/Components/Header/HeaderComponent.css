@@ -1,0 +1,93 @@
+.navcomponent {
+  display: flex;
+  padding: 15px 40px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.navcomponent img {
+  width: 170px;
+  height: 150px;
+}
+
+.navchoose ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.navchoose ul li {
+  font-family: "Rye";
+  font-size: 25px;
+}
+.linecolor {
+  height: 3px;
+  background-color: #977d67;
+}
+
+/* button */
+.choosecar {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+#btnchoosecar {
+  background-color: white;
+  width: 240px;
+  height: 50px;
+  border: 2px solid rgba(255, 0, 0, 0);
+  color: #977d67;
+  font-family: "Rye";
+  display: flex;
+  font-size: 15px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#btnchoosecar:hover {
+  cursor: pointer;
+  border: 2px solid #992c20;
+  border-radius: 5px;
+}
+#btnchoosecar1 {
+  background-color: white;
+  width: 240px;
+  height: 50px;
+  border: 2px solid rgba(255, 0, 0, 0);
+  color: #977d67;
+  font-family: "Rye";
+  display: flex;
+  font-size: 15px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+}
+
+#btnchoosecar1:hover {
+  cursor: pointer;
+  border: 2px solid #992c20;
+  border-radius: 5px;
+}
+#btnchoosecar1 span {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  color: #992c20;
+}
+#logout {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  color: #977d67;
+  font-family: "Rye";
+  font-size: 25px;
+  cursor: pointer;
+}
+#logout:hover {
+  color: #992c20;
+}

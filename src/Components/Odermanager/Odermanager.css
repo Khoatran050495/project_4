@@ -1,0 +1,83 @@
+.adminuser {
+  padding: 50px;
+}
+.tableuser {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+}
+.tableuser tr th {
+  font-family: "Rye";
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: 3px solid #992c20;
+}
+.tableuser tr td {
+  font-family: "Rye";
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ced4d8;
+}
+#approve {
+  width: 150px;
+  padding: 5px 0;
+  margin: 0px 5px;
+  border: 2px solid green;
+  color: green;
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 10px;
+  font-family: "Rye";
+  cursor: pointer;
+}
+#approve:hover {
+  background-color: green;
+  color: white;
+}
+#notapprove {
+  width: 150px;
+  padding: 5px 0;
+  margin: 0px 5px;
+  border: 2px solid red;
+  color: red;
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 10px;
+  font-family: "Rye";
+  cursor: pointer;
+}
+#notapprove:hover {
+  background-color: red;
+  color: white;
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: "Rye";
+  color: #977d67;
+}
+.pagination li {
+  margin: 0 10px;
+}
+
+.pagination__link {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #977d67;
+}
+
+.pagination__link--active {
+  border: 1px solid #992c20;
+  color: #977d67 !important;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.pagination__link--disabled {
+  cursor: not-allowed;
+}

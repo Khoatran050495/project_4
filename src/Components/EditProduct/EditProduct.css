@@ -1,0 +1,58 @@
+.editcomponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* form */
+.tablegrip {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+}
+.tablegrip input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.editform p {
+  font-size: 25px;
+  font-family: "Rye";
+  color: #992c20;
+}
+.editform label {
+  color: black;
+  font-family: "Rye";
+  font-size: 15px;
+}
+.editform input {
+  width: 350px;
+  height: 25px;
+  margin: 10px 0;
+}
+.editform1 {
+  display: flex;
+  justify-content: center;
+}
+#btnactiveuser {
+  width: 150px;
+  padding: 8px 0;
+  margin: 5px 0px;
+  border: 2px solid green;
+  color: green;
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 10px;
+  font-family: "Rye";
+  cursor: pointer;
+}
+#btnactiveuser:hover {
+  background-color: green;
+  color: white;
+}
+#bulletspec {
+  font-size: 10px;
+  margin-left: 10px;
+  color: #992c20;
+}

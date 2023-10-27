@@ -1,0 +1,50 @@
+.adminuser {
+  padding: 50px;
+}
+.tableuser {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+}
+.tableuser tr th {
+  font-family: "Rye";
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: 3px solid #992c20;
+}
+.tableuser tr td {
+  font-family: "Rye";
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ced4d8;
+}
+#btnactiveuser5 {
+  width: 90px;
+  padding: 5px 0;
+  margin: 0px 5px;
+  border: 2px solid green;
+  color: green;
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 10px;
+  font-family: "Rye";
+}
+#btnactiveuser5:hover {
+  background-color: green;
+  color: white;
+}
+#btnunactive {
+  width: 90px;
+  padding: 5px 0;
+  margin: 0px 5px;
+  border: 2px solid red;
+  color: red;
+  background-color: rgba(255, 0, 0, 0);
+  border-radius: 10px;
+  font-family: "Rye";
+}
+#btnunactive:hover {
+  background-color: red;
+  color: white;
+}

@@ -1,0 +1,141 @@
+.totaltablesmall {
+  padding: 50px;
+}
+
+.totaltable {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+/* bảng 1 */
+.totaltable1 {
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+  background-color: #78c350;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.totaltablesub1 {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.389);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.totaltablesub1 > i {
+  font-size: 20px;
+}
+
+/* bảng 2 */
+.totaltable2 {
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+  background-color: #f06292;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.totaltablesub2 {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.389);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.totaltablesub2 > i {
+  font-size: 20px;
+}
+
+/* bảng 3 */
+.totaltable3 {
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+  background-color: #45bbe0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.totaltablesub3 {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.389);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.totaltablesub3 > i {
+  font-size: 20px;
+}
+
+/* bảng 4 */
+.totaltable4 {
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+  background-color: #8892d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.totaltablesub4 {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.389);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.totaltablesub4 > i {
+  font-size: 25px;
+}
+
+.chartp {
+  font-family: "Rye";
+  color: white;
+}
+.chartfollow {
+  display: flex;
+  gap: 30px;
+}
+
+.labelSelect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.labelSelect > input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: "Rye";
+  outline: none;
+}
+.labelSelect label {
+  font-family: "Rye";
+  font-size: 20px;
+  color: #992c20;
+}
+.labelSelect > button {
+  border: none;
+  background-color: rgba(250, 235, 215, 0);
+  cursor: pointer;
+}
